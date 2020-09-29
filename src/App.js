@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./component/Navbar";
+import Projects from "./component/Projects";
 import "./styles/styles.css";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div>
       <Navbar />
       <div className="container"></div>
-      <div className="caption-container">
+      <div className="caption-container" id="home">
         <div className="caption-wrapper">
           <h4 className="caption-greeting">Hello, I'm</h4>
           <h1 className="caption-name">NAN YUAN</h1>
@@ -22,6 +23,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Projects />
     </div>
   );
 }
