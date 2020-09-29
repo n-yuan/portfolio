@@ -1,0 +1,20 @@
+.caption-container {
+  width: 100%; }
+  .caption-container .caption-wrapper {
+    text-align: center; }
+    .caption-container .caption-wrapper .caption-greeting {
+      font-size: 20px;
+      margin-top: 200px; }
+    .caption-container .caption-wrapper .caption-name {
+      font-size: 70px;
+      margin: 15px; }
+    .caption-container .caption-wrapper .caption-title {
+      font-size: 20px;
+      margin: 15px; }
+    .caption-container .caption-wrapper .icon-linkedin,
+    .caption-container .caption-wrapper .icon-github,
+    .caption-container .caption-wrapper .icon-at,
+    .caption-container .caption-wrapper .icon-id-card {
+      margin-right: 8px; }
+
+/*# sourceMappingURL=styles.css.map */

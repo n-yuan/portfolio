@@ -1,0 +1,25 @@
+.caption-container {
+  width: 100%;
+  .caption-wrapper {
+    text-align: center;
+
+    .caption-greeting {
+      font-size: 20px;
+      margin-top: 200px;
+    }
+    .caption-name {
+      font-size: 70px;
+      margin: 15px;
+    }
+    .caption-title {
+      font-size: 20px;
+      margin: 15px;
+    }
+    .icon-linkedin,
+    .icon-github,
+    .icon-at,
+    .icon-id-card {
+      margin-right: 8px;
+    }
+  }
+}
