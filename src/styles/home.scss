@@ -1,0 +1,46 @@
+.home-container {
+  width: 100%;
+
+}
+.home-wrapper {
+  text-align: center;
+  
+  .background-img {
+    &:after {
+      height: 100vh;
+      width: 100%;
+      content: "";
+      top: 0px;
+      left: 0px;
+      position: absolute;
+      z-index: -1;
+      background: url("../images/bg-img.jpg") no-repeat;
+      background-size: cover;
+      opacity: 0.5;
+    }
+  }
+  .home-greeting {
+    font-size: 20px;
+    margin-top: 200px;
+    color: $primaryColor;
+  }
+  .home-name {
+    font-size: 70px;
+    margin: 15px;
+    color: $primaryColor;
+  }
+  .home-title {
+    font-size: 20px;
+    margin: 15px;
+    color: $primaryColor;
+    font-family: 'Lato', sans-serif;
+  }
+  .icon-linkedin,
+  .icon-github,
+  .icon-at,
+  .icon-id-card {
+    margin-right: 16px;
+    color: $primaryColor;
+    margin-bottom:400px;
+  }
+}
