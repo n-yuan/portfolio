@@ -2,30 +2,32 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#home">
-            Home <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#projects">
-            Projects
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skills">
-            Skills
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contacts">
-            Contacts
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <div className="nav-container">
+      <nav className="navbar navbar-expand-lg">
+        <ul className="navbar-nav mx-auto">
+          <li className="nav-item active">
+            <a className="nav-link-home nav-link" href="#home">
+              Home <span className="sr-only">(current)</span>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link nav-link-projects" href="#projects">
+              Projects
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link nav-link-skills" href="#skills">
+              Skills
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link nav-link-contacts" href="#contacts">
+              Contacts
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 };
 
