@@ -1,0 +1,19 @@
+.projects-heading-wrapper {
+  text-align: center;
+  .projects-caption {
+    font-size: 18px;
+    color: $primaryColor;
+    margin-bottom: 10px;
+  }
+  .projects-header {
+    font-size: 50px;
+    color: $primaryColor;
+  }
+  .projects-dash {
+    background-color: $primaryColor;
+    width: 96px;
+    margin-top: 10px;
+    border: 2px solid $primaryColor;
+    margin-bottom: 50px;
+  }
+}

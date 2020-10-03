@@ -1,55 +1,6 @@
-.caption-container {
-  width: 100%;
-  .caption-wrapper {
-    text-align: center;
+$primaryColor: #393b44;
 
-    .caption-greeting {
-      font-size: 20px;
-      margin-top: 200px;
-    }
-    .caption-name {
-      font-size: 70px;
-      margin: 15px;
-    }
-    .caption-title {
-      font-size: 20px;
-      margin: 15px;
-    }
-    .icon-linkedin,
-    .icon-github,
-    .icon-at,
-    .icon-id-card {
-      margin-right: 8px;
-    }
-  }
-}
-
-.projects-container {
-  width: 100%;
-  .projects-heading-wrapper {
-    text-align: center;
-    .projects-caption {
-      font-size: 20px;
-    }
-    .projects-header {
-      font-size: 50px;
-    }
-    .projects-dash {
-      background-color: black;
-      width: 88px;
-      margin-top: 20px;
-      border: 2px solid black;
-    }
-  }
-  .single-project-wrapper {
-    text-align: center;
-    background-color: rgba(172, 231, 228, 0.2);
-    border-top: 2px solid rgb(172, 231, 228);
-    .view-project-btn {
-      display: inline-block;
-    }
-    .view-code-btn {
-      display: inline-block;
-    }
-  }
-}
+@import "./home.scss";
+@import "./navbar.scss";
+@import "./projects.scss";
+@import "./projectsHeading.scss";

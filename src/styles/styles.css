@@ -1,42 +1,104 @@
-.caption-container {
+.home-container {
   width: 100%; }
-  .caption-container .caption-wrapper {
-    text-align: center; }
-    .caption-container .caption-wrapper .caption-greeting {
-      font-size: 20px;
-      margin-top: 200px; }
-    .caption-container .caption-wrapper .caption-name {
-      font-size: 70px;
-      margin: 15px; }
-    .caption-container .caption-wrapper .caption-title {
-      font-size: 20px;
-      margin: 15px; }
-    .caption-container .caption-wrapper .icon-linkedin,
-    .caption-container .caption-wrapper .icon-github,
-    .caption-container .caption-wrapper .icon-at,
-    .caption-container .caption-wrapper .icon-id-card {
-      margin-right: 8px; }
+
+.home-wrapper {
+  text-align: center; }
+  .home-wrapper .background-img:after {
+    height: 100vh;
+    width: 100%;
+    content: "";
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: -1;
+    background: url("../images/bg-img.jpg") no-repeat;
+    background-size: cover;
+    opacity: 0.5; }
+  .home-wrapper .home-greeting {
+    font-size: 20px;
+    margin-top: 200px;
+    color: #393b44; }
+  .home-wrapper .home-name {
+    font-size: 70px;
+    margin: 15px;
+    color: #393b44; }
+  .home-wrapper .home-title {
+    font-size: 20px;
+    margin: 15px;
+    color: #393b44;
+    font-family: 'Lato', sans-serif; }
+  .home-wrapper .icon-linkedin,
+  .home-wrapper .icon-github,
+  .home-wrapper .icon-at,
+  .home-wrapper .icon-id-card {
+    margin-right: 16px;
+    color: #393b44;
+    margin-bottom: 400px; }
+
+.nav-container .nav-link-home,
+.nav-container .nav-link-projects,
+.nav-container .nav-link-skills,
+.nav-container .nav-link-contacts {
+  color: #393b44;
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 20px; }
 
 .projects-container {
-  width: 100%; }
-  .projects-container .projects-heading-wrapper {
-    text-align: center; }
-    .projects-container .projects-heading-wrapper .projects-caption {
-      font-size: 20px; }
-    .projects-container .projects-heading-wrapper .projects-header {
-      font-size: 50px; }
-    .projects-container .projects-heading-wrapper .projects-dash {
-      background-color: black;
-      width: 88px;
-      margin-top: 20px;
-      border: 2px solid black; }
+  width: 100%;
+  text-align: center; }
   .projects-container .single-project-wrapper {
-    text-align: center;
-    background-color: rgba(172, 231, 228, 0.2);
-    border-top: 2px solid #ace7e4; }
+    background-color: rgba(227, 234, 237, 0.4);
+    border-top: 2px solid #eceef0;
+    margin: 0 auto;
+    width: 1400px; }
+    .projects-container .single-project-wrapper .single-project-header {
+      margin: 20px 0 35px 0;
+      color: #393b44; }
+    .projects-container .single-project-wrapper .single-project-image {
+      border-radius: 20px;
+      width: 600px; }
     .projects-container .single-project-wrapper .view-project-btn {
-      display: inline-block; }
+      border: 2px solid #393b44;
+      background-color: Transparent;
+      padding: 6px 20px;
+      font-size: 15px;
+      color: #393b44;
+      margin-top: 20px;
+      width: 200px; }
     .projects-container .single-project-wrapper .view-code-btn {
-      display: inline-block; }
+      display: inline-block;
+      border: 2px solid #393b44;
+      background-color: Transparent;
+      padding: 6px 20px;
+      font-size: 15px;
+      color: #393b44;
+      margin-top: 20px;
+      width: 200px;
+      font-family: 'Lato', sans-serif; }
+    .projects-container .single-project-wrapper .single-project-description-header {
+      width: 600px;
+      text-align: start;
+      margin-bottom: 20px;
+      font-family: 'Lato', sans-serif; }
+    .projects-container .single-project-wrapper .single-project-description-content {
+      width: 400px;
+      text-align: justify;
+      padding: 5px 0;
+      font-family: 'Lato', sans-serif; }
 
-/*# sourceMappingURL=styles.css.map */
+.projects-heading-wrapper {
+  text-align: center; }
+  .projects-heading-wrapper .projects-caption {
+    font-size: 18px;
+    color: #393b44;
+    margin-bottom: 10px; }
+  .projects-heading-wrapper .projects-header {
+    font-size: 50px;
+    color: #393b44; }
+  .projects-heading-wrapper .projects-dash {
+    background-color: #393b44;
+    width: 96px;
+    margin-top: 10px;
+    border: 2px solid #393b44;
+    margin-bottom: 50px; }
