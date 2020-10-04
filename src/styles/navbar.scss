@@ -1,4 +1,7 @@
 .nav-container {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
   .nav-link-home,
   .nav-link-projects,
   .nav-link-skills,
