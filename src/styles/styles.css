@@ -2,7 +2,11 @@
   width: 100%; }
 
 .home-wrapper {
-  text-align: center; }
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh; }
   .home-wrapper .background-img:before {
     height: 100vh;
     width: 100%;
@@ -26,12 +30,22 @@
     opacity: 0.5; }
   .home-wrapper .home-greeting {
     font-size: 20px;
-    padding-top: 300px;
     color: #393b44; }
   .home-wrapper .home-name {
-    font-size: 70px;
+    font-size: 90px;
     margin: 15px;
-    color: #393b44; }
+    color: #393b44;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+    /* Clip Background Image */
+    background: url(https://media.giphy.com/media/KZFrf9JusXzmpnPsT6/giphy.gif) repeat-y;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; }
   .home-wrapper .home-title {
     font-size: 20px;
     margin: 15px;
@@ -42,8 +56,7 @@
   .home-wrapper .icon-at,
   .home-wrapper .icon-id-card {
     margin-right: 16px;
-    color: #393b44;
-    margin-bottom: 400px; }
+    color: #393b44; }
 
 .nav-container {
   position: absolute;
