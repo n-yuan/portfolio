@@ -1,6 +1,6 @@
 $primaryColor: #393b44;
-
-@import "./home.scss";
-@import "./navbar.scss";
-@import "./projects.scss";
-@import "./projectsHeading.scss";
+@import "./layout/layout.scss";
+@import "./components/home.scss";
+@import "./components/navbar.scss";
+@import "./components/projects.scss";
+@import "./components/sectionHeader.scss";

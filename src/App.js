@@ -1,8 +1,6 @@
 import React from "react";
 import Navbar from "./component/Navbar";
 import Home from "./component/Home";
-import ProjectsHeading from "./component/ProjectsHeading";
-
 import Projects from "./component/Projects";
 import "./styles/styles.css";
 
@@ -11,8 +9,11 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <ProjectsHeading />
-      <Projects />
+      <div className="content-wrapper">
+        <div className="container">
+          <Projects />
+        </div>
+      </div>
     </div>
   );
 }

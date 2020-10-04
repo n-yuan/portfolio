@@ -1,20 +1,21 @@
 .projects-container {
   width: 100%;
   text-align: center;
+  margin-bottom: 30px;
   .single-project-wrapper {
     background-color: rgba(227, 234, 237, 0.4);
     border-top: 2px solid rgb(236, 238, 240);
-    margin: 0 auto;
-    width: 1400px;
+    margin: 0 auto 50px auto;
+    padding: 10px 20px 50px 20px;
+    width: 100%;
     .single-project-header {
       margin: 20px 0 35px 0;
       color: $primaryColor;
     }
     .single-project-image {
       border-radius: 20px;
-      width: 600px;
+      width: 100%;
     }
-
     .view-project-btn {
       border: 2px solid $primaryColor;
       background-color: Transparent;
@@ -33,19 +34,19 @@
       color: $primaryColor;
       margin-top: 20px;
       width: 200px;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
     }
-    .single-project-description-header{
-      width:600px;
+    .single-project-description-header {
+      width: 600px;
       text-align: start;
       margin-bottom: 20px;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
     }
-    .single-project-description-content{
-      width:400px;
+    .single-project-description-content {
+      width: 400px;
       text-align: justify;
       padding: 5px 0;
-      font-family: 'Lato', sans-serif;
+      font-family: "Lato", sans-serif;
     }
   }
 }

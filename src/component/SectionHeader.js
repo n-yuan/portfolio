@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectsHeading = () => {
+const SectionHeader = () => {
   return (
     <div className="projects-heading-wrapper">
       <p className="projects-caption">View my projects</p>
@@ -10,4 +10,4 @@ const ProjectsHeading = () => {
   );
 };
 
-export default ProjectsHeading;
+export default SectionHeader;

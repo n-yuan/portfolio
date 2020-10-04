@@ -42,6 +42,8 @@ const Home = () => {
       ></div>
       <div className="home-wrapper">
         <div className="background-img"></div>
+        <div className="background-img-overlay"></div>
+
         <div>
           <h4 className="home-greeting">Hello, I'm</h4>
           <h1 className="home-name">NAN YUAN</h1>

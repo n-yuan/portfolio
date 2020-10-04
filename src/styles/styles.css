@@ -1,3 +1,11 @@
+.content-wrapper {
+  background: #6190e8;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ffffff, #79A6D2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ffffff, #79A6D2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
 .home-container {
   width: 100%; }
 
@@ -7,16 +15,6 @@
   text-align: center;
   justify-content: center;
   height: 100vh; }
-  .home-wrapper .background-img:before {
-    height: 100vh;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    position: absolute;
-    z-index: -2;
-    background-color: white;
-    background-size: cover;
-    opacity: 0.05; }
   .home-wrapper .background-img:after {
     height: 100vh;
     width: 100%;
@@ -28,11 +26,22 @@
     background: url("../images/bg-img.jpg") no-repeat;
     background-size: cover;
     opacity: 0.5; }
+  .home-wrapper .background-img-overlay {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-color: #dddcff;
+    background-size: cover;
+    opacity: 0.3; }
   .home-wrapper .home-greeting {
     font-size: 20px;
     color: #393b44; }
   .home-wrapper .home-name {
     font-size: 90px;
+    font-weight: 600;
     margin: 15px;
     color: #393b44;
     letter-spacing: 0;
@@ -73,18 +82,20 @@
 
 .projects-container {
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 30px; }
   .projects-container .single-project-wrapper {
     background-color: rgba(227, 234, 237, 0.4);
     border-top: 2px solid #eceef0;
-    margin: 0 auto;
-    width: 1400px; }
+    margin: 0 auto 50px auto;
+    padding: 10px 20px 50px 20px;
+    width: 100%; }
     .projects-container .single-project-wrapper .single-project-header {
       margin: 20px 0 35px 0;
       color: #393b44; }
     .projects-container .single-project-wrapper .single-project-image {
       border-radius: 20px;
-      width: 600px; }
+      width: 100%; }
     .projects-container .single-project-wrapper .view-project-btn {
       border: 2px solid #393b44;
       background-color: Transparent;
@@ -102,19 +113,20 @@
       color: #393b44;
       margin-top: 20px;
       width: 200px;
-      font-family: 'Lato', sans-serif; }
+      font-family: "Lato", sans-serif; }
     .projects-container .single-project-wrapper .single-project-description-header {
       width: 600px;
       text-align: start;
       margin-bottom: 20px;
-      font-family: 'Lato', sans-serif; }
+      font-family: "Lato", sans-serif; }
     .projects-container .single-project-wrapper .single-project-description-content {
       width: 400px;
       text-align: justify;
       padding: 5px 0;
-      font-family: 'Lato', sans-serif; }
+      font-family: "Lato", sans-serif; }
 
 .projects-heading-wrapper {
+  padding: 20px 0 50px 0;
   text-align: center; }
   .projects-heading-wrapper .projects-caption {
     font-size: 18px;
@@ -127,5 +139,4 @@
     background-color: #393b44;
     width: 96px;
     margin-top: 10px;
-    border: 2px solid #393b44;
-    margin-bottom: 50px; }
+    border: 2px solid #393b44; }
