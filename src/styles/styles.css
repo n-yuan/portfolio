@@ -1,5 +1,6 @@
 .content-wrapper {
-  background: #6190e8;
+  padding-bottom: 50px;
+  background: #79A6D2;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #ffffff, #79A6D2);
   /* Chrome 10-25, Safari 5.1-6 */
@@ -38,12 +39,12 @@
     opacity: 0.3; }
   .home-wrapper .home-greeting {
     font-size: 20px;
-    color: #393b44; }
+    color: #07031a; }
   .home-wrapper .home-name {
     font-size: 90px;
     font-weight: 600;
     margin: 15px;
-    color: #393b44;
+    color: #07031a;
     letter-spacing: 0;
     padding: 0.25em 0 0.325em;
     display: block;
@@ -58,14 +59,14 @@
   .home-wrapper .home-title {
     font-size: 20px;
     margin: 15px;
-    color: #393b44;
+    color: #07031a;
     font-family: "Lato", sans-serif; }
   .home-wrapper .icon-linkedin,
   .home-wrapper .icon-github,
   .home-wrapper .icon-at,
   .home-wrapper .icon-id-card {
     margin-right: 16px;
-    color: #393b44; }
+    color: #07031a; }
 
 .nav-container {
   position: absolute;
@@ -75,7 +76,7 @@
   .nav-container .nav-link-projects,
   .nav-container .nav-link-skills,
   .nav-container .nav-link-contacts {
-    color: #393b44;
+    color: #07031a;
     font-weight: 500;
     font-size: 18px;
     margin-right: 20px; }
@@ -92,25 +93,25 @@
     width: 100%; }
     .projects-container .single-project-wrapper .single-project-header {
       margin: 20px 0 35px 0;
-      color: #393b44; }
+      color: #07031a; }
     .projects-container .single-project-wrapper .single-project-image {
       border-radius: 20px;
       width: 100%; }
     .projects-container .single-project-wrapper .view-project-btn {
-      border: 2px solid #393b44;
+      border: 2px solid #07031a;
       background-color: Transparent;
       padding: 6px 20px;
       font-size: 15px;
-      color: #393b44;
+      color: #07031a;
       margin-top: 20px;
       width: 200px; }
     .projects-container .single-project-wrapper .view-code-btn {
       display: inline-block;
-      border: 2px solid #393b44;
+      border: 2px solid #07031a;
       background-color: Transparent;
       padding: 6px 20px;
       font-size: 15px;
-      color: #393b44;
+      color: #07031a;
       margin-top: 20px;
       width: 200px;
       font-family: "Lato", sans-serif; }
@@ -124,19 +125,42 @@
       text-align: justify;
       padding: 5px 0;
       font-family: "Lato", sans-serif; }
+  .projects-container .awesome-slider-projects {
+    --slider-height-percentage: 63%;
+    --slider-transition-duration: 300ms;
+    --organic-arrow-thickness: 3px;
+    --organic-arrow-border-radius: 30px;
+    --organic-arrow-height: 20px;
+    --control-button-opacity: 0.3;
+    --organic-arrow-color: #26456f;
+    --control-button-width: 10%;
+    --control-button-height: 25%;
+    --control-button-background: transparent;
+    --control-bullet-color: #2d5182;
+    --control-bullet-active-color: #26456f;
+    --loader-bar-color: #62b3ff;
+    --loader-bar-height: 5px; }
 
 .projects-heading-wrapper {
   padding: 20px 0 50px 0;
   text-align: center; }
   .projects-heading-wrapper .projects-caption {
     font-size: 18px;
-    color: #393b44;
+    color: #07031a;
     margin-bottom: 10px; }
   .projects-heading-wrapper .projects-header {
     font-size: 50px;
-    color: #393b44; }
+    font-weight: 500;
+    color: #07031a;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+    /* Clip Background Image */
+    background: url(https://media.giphy.com/media/Quyiqd41UdRSiaRe55/giphy.gif) repeat-y;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; }
   .projects-heading-wrapper .projects-dash {
-    background-color: #393b44;
+    background-color: #07031a;
     width: 96px;
     margin-top: 10px;
-    border: 2px solid #393b44; }
+    border: 2px solid #fbfd8a; }

@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import TeamLoggerImg_1 from "../../images/team-logger.png";
+import AwesomeSlider from "react-awesome-slider";
+import "react-awesome-slider/dist/styles.css";
+import "react-awesome-slider/dist/custom-animations/fold-out-animation.css";
 
 const TeamLogger = () => {
   return (
@@ -7,11 +10,16 @@ const TeamLogger = () => {
       <h1 className="single-project-header">Team Logger</h1>
       <div className="row">
         <div className="col-lg-6">
-          <img
-            src={TeamLoggerImg_1}
-            alt="team-logger"
-            className="single-project-image"
-          />
+          <AwesomeSlider
+            animation="foldOutAnimation"
+            className="awesome-slider-projects"
+            style={{borderRedius:"100px"}}
+            bullets={false}
+          >
+            <div data-src={TeamLoggerImg_1} />
+            <div data-src={TeamLoggerImg_1} />
+            <div data-src={TeamLoggerImg_1} />
+          </AwesomeSlider>
           <div className="row">
             <div className="col-lg-6">
               <button className="view-project-btn">VIEW PROJECT</button>
