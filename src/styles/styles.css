@@ -77,9 +77,11 @@
   .nav-container .nav-link-skills,
   .nav-container .nav-link-contacts {
     color: #07031a;
-    font-weight: 500;
-    font-size: 18px;
-    margin-right: 20px; }
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 20px;
+    text-shadow: #353535 5px 5px 10px; }
 
 .projects-container {
   width: 100%;
