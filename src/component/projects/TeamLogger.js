@@ -13,7 +13,6 @@ const TeamLogger = () => {
           <AwesomeSlider
             animation="foldOutAnimation"
             className="awesome-slider-projects"
-            style={{borderRedius:"100px"}}
             bullets={false}
           >
             <div data-src={TeamLoggerImg_1} />

@@ -1,10 +1,10 @@
 .content-wrapper {
   padding-bottom: 50px;
-  background: #79A6D2;
+  background: #FDFDFD;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #ffffff, #79A6D2);
+  background: -webkit-linear-gradient(to top, #ffffff, #FDFDFD);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #ffffff, #79A6D2);
+  background: linear-gradient(to top, #ffffff, #FDFDFD);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .home-container {
@@ -34,9 +34,12 @@
     top: 0px;
     left: 0px;
     z-index: -1;
-    background-color: #dddcff;
+    background: -webkit-linear-gradient(to top, #fdfdfd, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fdfdfd, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
-    opacity: 0.3; }
+    opacity: 1; }
   .home-wrapper .home-greeting {
     font-size: 20px;
     color: #07031a; }
@@ -88,8 +91,8 @@
   text-align: center;
   margin-bottom: 30px; }
   .projects-container .single-project-wrapper {
-    background-color: rgba(227, 234, 237, 0.4);
-    border-top: 2px solid #eceef0;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(104, 200, 255, 0.1), rgba(104, 200, 255, 0.2), rgba(104, 200, 255, 0.15), rgba(255, 255, 255, 0));
     margin: 0 auto 50px auto;
     padding: 10px 20px 50px 20px;
     width: 100%; }
