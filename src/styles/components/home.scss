@@ -51,10 +51,14 @@
     color: $primaryColor;
   }
   .home-name {
+    font-family: 'B612', sans-serif;
+    // font-family: 'Mulish', sans-serif;
+    // font-family: 'Cairo', sans-serif;
     font-size: 90px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 15px;
     color: $primaryColor;
+    // font-style: italic;
     // font: 700 4em/1 "Oswald", sans-serif;
     letter-spacing: 0;
     padding: 0.25em 0 0.325em;
