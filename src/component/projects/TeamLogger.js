@@ -21,10 +21,10 @@ const TeamLogger = () => {
           </AwesomeSlider>
           <div className="row">
             <div className="col-lg-6">
-              <button className="view-project-btn">VIEW PROJECT</button>
+              <button className="btn-project">VIEW PROJECT</button>
             </div>
             <div className="col-lg-6">
-              <button className="view-code-btn"> VIEW CODE</button>
+              <button className="btn-project"> VIEW CODE</button>
             </div>
           </div>
         </div>
