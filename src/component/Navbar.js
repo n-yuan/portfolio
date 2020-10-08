@@ -1,29 +1,60 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const [projectsColor, setProjectsColor] = useState("nav-link nav-link-white");
+
   return (
     <div className="nav-container">
       <nav className="navbar navbar-expand-lg">
         <ul className="navbar-nav mx-auto">
           <li className="nav-item active">
-            <a className="nav-link-home nav-link" href="#home">
-              Home <span className="sr-only">(current)</span>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link nav-link-projects" href="#projects">
+            <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className={projectsColor}
+            >
               Projects
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link nav-link-skills" href="#skills">
+            <Link
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className={projectsColor}
+            >
+              Projects
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className={projectsColor}
+            >
               Skills
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link nav-link-contacts" href="#contacts">
+            <Link
+              activeClass="active"
+              to="contacts"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className={projectsColor}
+            >
               Contacts
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>

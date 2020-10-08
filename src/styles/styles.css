@@ -83,13 +83,22 @@ body {
   .nav-container .nav-link-home,
   .nav-container .nav-link-projects,
   .nav-container .nav-link-skills,
-  .nav-container .nav-link-contacts {
+  .nav-container .nav-link-contacts,
+  .nav-container .nav-link-white {
     color: #07031a;
     color: white;
     font-weight: 800;
     font-size: 20px;
     margin-right: 20px;
-    text-shadow: #353535 5px 5px 10px; }
+    text-shadow: #353535 5px 5px 10px;
+    cursor: pointer;
+    transition: 200ms; }
+    .nav-container .nav-link-home:hover,
+    .nav-container .nav-link-projects:hover,
+    .nav-container .nav-link-skills:hover,
+    .nav-container .nav-link-contacts:hover,
+    .nav-container .nav-link-white:hover {
+      color: #d8d8d8; }
 
 .projects-container {
   width: 100%;

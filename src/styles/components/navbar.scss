@@ -5,12 +5,18 @@
   .nav-link-home,
   .nav-link-projects,
   .nav-link-skills,
-  .nav-link-contacts {
+  .nav-link-contacts,
+  .nav-link-white {
     color: $primaryColor;
     color: white;
     font-weight: 800;
     font-size: 20px;
     margin-right: 20px;
     text-shadow: rgb(53, 53, 53) 5px 5px 10px;
+    cursor: pointer;
+    transition: 200ms;
+    &:hover {
+      color: rgb(216, 216, 216);
+    }
   }
 }
