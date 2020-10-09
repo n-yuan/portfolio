@@ -17,7 +17,7 @@ const Navbar = () => {
               duration={500}
               className={projectsColor}
             >
-              Projects
+              Home
             </Link>
           </li>
           <li className="nav-item">

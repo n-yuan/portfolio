@@ -5,7 +5,7 @@ import SectionHeader from "./SectionHeader";
 const Projects = () => {
   return (
     <div id="projects" className="projects-container">
-      <SectionHeader />
+      <SectionHeader name={'Projects'} />
       <TeamLogger />
       <TeamLogger />
       <TeamLogger />
