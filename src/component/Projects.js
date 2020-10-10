@@ -5,7 +5,7 @@ import SectionHeader from "./SectionHeader";
 const Projects = () => {
   return (
     <div id="projects" className="projects-container">
-      <SectionHeader name={'Projects'} />
+      <SectionHeader name={"Projects"} description={"View my projects"} />
       <TeamLogger />
       <TeamLogger />
       <TeamLogger />
