@@ -3,6 +3,7 @@ import Navbar from "./component/Navbar";
 import Home from "./component/Home";
 import Projects from "./component/Projects";
 import Skills from "./component/Skills";
+import ContactMe from "./component/ContactMe";
 import "./styles/styles.css";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <div className="container">
           <Projects />
           <Skills />
+          <ContactMe />
         </div>
       </div>
     </div>

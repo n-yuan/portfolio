@@ -4,9 +4,13 @@ import SectionHeader from "./SectionHeader";
 
 const Skills = () => {
   return (
-    <div id="skills" className="projects-container">
+    <div id="skills" className="section-container">
       <SectionHeader name={"Skills"} description={"My skills"} />
-      <TeamLogger />
+      <div style={{ height: "500px" }} className="skills-section">
+        <div className="skill-header">
+          <h3>Tech Skills</h3>
+        </div>
+      </div>
     </div>
   );
 };
