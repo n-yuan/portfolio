@@ -4,6 +4,8 @@ import Home from "./component/Home";
 import Projects from "./component/Projects";
 import Skills from "./component/Skills";
 import ContactMe from "./component/ContactMe";
+import ScrollToTop from "./component/ScrollToTop";
+
 import "./styles/styles.css";
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
           <ContactMe />
         </div>
       </div>
+      <ScrollToTop />
     </div>
   );
 }
