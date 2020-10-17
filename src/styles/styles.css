@@ -15,6 +15,14 @@
 body {
   font-family: "Mulish", sans-serif; }
 
+.scroll-to-top-btn {
+  font-size: 40px;
+  color: #07031a;
+  transition: 300ms; }
+  .scroll-to-top-btn:hover {
+    color: #62b3ff;
+    cursor: pointer; }
+
 .home-container {
   width: 100%; }
 

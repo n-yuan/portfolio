@@ -23,3 +23,13 @@ body {
   font-family: "Mulish", sans-serif;
   // font-family: 'Cairo', sans-serif;
 }
+
+.scroll-to-top-btn {
+  font-size: 40px;
+  color: $primaryColor;
+  transition: 300ms;
+  &:hover {
+    color: #62b3ff;
+    cursor: pointer;
+  }
+}
