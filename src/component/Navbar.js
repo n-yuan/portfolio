@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div className="nav-container">
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand">
         <ul className="navbar-nav mx-auto">
           <li className="nav-item active">
             <Link

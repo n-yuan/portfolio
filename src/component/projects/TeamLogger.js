@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import TeamLoggerImg_1 from "../../images/team-logger.png";
-import TeamLoggerImg_2 from "../../images/members.png";
-import TeamLoggerImg_3 from "../../images/logs.png";
+import TeamLoggerImg_2 from "../../images/logs.png";
+import TeamLoggerImg_3 from "../../images/members.png";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import "react-awesome-slider/dist/custom-animations/fold-out-animation.css";

@@ -15,7 +15,7 @@ const ScrollToTop = () => {
 
     if (scrollTop > 0 && scrollTop <= 800) {
       setShowBtn(false);
-    } else if (scrollTop > 800 && scrollTop <= 1600) {
+    } else if (scrollTop > 800) {
       setShowBtn(true);
     }
   };
@@ -24,7 +24,7 @@ const ScrollToTop = () => {
     <div style={{ position: "fixed", right: "10px", bottom: "10px" }}>
       {showBtn && (
         <Link to="home" spy={true} smooth={true} duration={500}>
-          <i class="fas fa-angle-up scroll-to-top-btn"></i>
+          <i className="fas fa-angle-up scroll-to-top-btn"></i>
         </Link>
       )}
     </div>

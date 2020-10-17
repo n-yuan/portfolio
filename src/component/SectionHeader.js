@@ -7,7 +7,7 @@ const SectionHeader = (props) => {
     <div className="projects-heading-wrapper">
       <p className="projects-caption">{description}</p>
       <h1 className="projects-header">{name}</h1>
-      <div className="projects-dash mx-auto"></div>
+      {/* <div className="projects-dash mx-auto"></div> */}
     </div>
   );
 };
