@@ -43,12 +43,14 @@
       width: 200px;
     }
     .single-project-description-header {
-      width: 500px;
+      width: 100%;
       font-size: 25px;
       line-height: 35px;
       text-align: start;
       margin-bottom: 20px;
       padding: 5px 30px 5px 5px;
+      color: $darkBlue;
+      font-weight: 600;
     }
     .single-project-description-content {
       width: 100%;
