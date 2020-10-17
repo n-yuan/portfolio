@@ -24,9 +24,7 @@ const ScrollToTop = () => {
     <div style={{ position: "fixed", right: "10px", bottom: "10px" }}>
       {showBtn && (
         <Link to="home" spy={true} smooth={true} duration={500}>
-          {/* <button>Top</button> */}
           <i class="fas fa-angle-up scroll-to-top-btn"></i>
-          {/* <i class="fab fa-linkedin fa-lg icon-linkedin"></i> */}
         </Link>
       )}
     </div>
