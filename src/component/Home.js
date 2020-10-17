@@ -51,10 +51,18 @@ const Home = () => {
             Full-stack developer| Front-end developer
           </h4>
           <div className="icons-wrapper">
-            <i class="fab fa-linkedin fa-lg icon-linkedin"></i>
-            <i class="fab fa-github fa-lg icon-github"></i>
-            <i class="fas fa-at icon-at fa-lg "></i>
-            <i class="fas fa-id-card icon-id-card fa-lg "></i>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+              <i class="fab fa-linkedin fa-lg icon-linkedin"></i>
+            </a>
+            <a href="https://github.com/n-yuan" target="_blank">
+              <i class="fab fa-github fa-lg icon-github"></i>
+            </a>
+            <a href="mailto: nan.yuan.dev@gmail.com">
+              <i class="fas fa-at icon-at fa-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+              <i class="fas fa-id-card icon-id-card fa-lg"></i>
+            </a>
           </div>
         </div>
       </div>

@@ -52,13 +52,12 @@ body {
     font-size: 20px;
     color: #07031a; }
   .home-wrapper .home-name {
-    font-family: 'B612', sans-serif;
+    font-family: "B612", sans-serif;
     font-size: 90px;
     font-weight: 500;
-    margin: 15px;
     color: #07031a;
     letter-spacing: 0;
-    padding: 0.25em 0 0.325em;
+    padding: 20px 0 0 0;
     display: block;
     margin: 0 auto;
     text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
@@ -73,12 +72,23 @@ body {
     margin: 15px;
     color: #07031a;
     font-family: "Lato", sans-serif; }
-  .home-wrapper .icon-linkedin,
-  .home-wrapper .icon-github,
-  .home-wrapper .icon-at,
-  .home-wrapper .icon-id-card {
-    margin-right: 16px;
-    color: #07031a; }
+  .home-wrapper .icons-wrapper {
+    margin-top: 30px; }
+    .home-wrapper .icons-wrapper .icon-linkedin,
+    .home-wrapper .icons-wrapper .icon-github,
+    .home-wrapper .icons-wrapper .icon-at,
+    .home-wrapper .icons-wrapper .icon-id-card {
+      font-size: 28px;
+      margin: 10px 16px;
+      color: #07031a;
+      transition: 300ms; }
+      .home-wrapper .icons-wrapper .icon-linkedin:hover,
+      .home-wrapper .icons-wrapper .icon-github:hover,
+      .home-wrapper .icons-wrapper .icon-at:hover,
+      .home-wrapper .icons-wrapper .icon-id-card:hover {
+        color: #FDFDFD;
+        text-shadow: #353535 5px 5px 10px;
+        cursor: pointer; }
 
 .nav-container {
   position: absolute;
