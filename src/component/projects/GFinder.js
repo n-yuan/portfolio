@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import TeamLoggerImg_1 from "../../images/team-logger.png";
 import TeamLoggerImg_2 from "../../images/members.png";
-import TeamLoggerImg_3 from "../../images/logs.png";
+import TeamLoggerImg_3 from "../../images/add-members.png";
+
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import "react-awesome-slider/dist/custom-animations/fold-out-animation.css";
@@ -9,7 +10,7 @@ import "react-awesome-slider/dist/custom-animations/fold-out-animation.css";
 const TeamLogger = () => {
   return (
     <div className="single-project-wrapper">
-      <h1 className="single-project-header">Team Logger</h1>
+      <h1 className="single-project-header">G-finder</h1>
       <div className="row">
         <div className="col-lg-6">
           <AwesomeSlider
@@ -32,16 +33,19 @@ const TeamLogger = () => {
         </div>
         <div className="col-lg-6">
           <h2 className="single-project-description-header">
-            An Efficient and simple tool that can improve team work experience
-            and boost productivity.
+            A web application that could search Github users, get their
+            information and repositories, explore the trending projects on
+            GitHub, and sort trending projects by languages and time
           </h2>
           <p className="single-project-description-content">
             • Used CSS3, Sass, HTML5, JavaScript, React.js, React hooks,
-            Bootstrap, Responsive design for front-end development development.
+            Bootstrap, Responsive design for front-end development
           </p>
           <p className="single-project-description-content">
-            •Used Node.js, MongoDB, Express, Mongoose, RESTful API for back-end
-            development.
+            • Used Context API for state management, Animate.css for animations
+          </p>
+          <p className="single-project-description-content">
+            • Getting raw data from GitHub Developer API
           </p>
         </div>
       </div>
