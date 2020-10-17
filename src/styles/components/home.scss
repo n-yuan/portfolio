@@ -51,17 +51,16 @@
     color: $primaryColor;
   }
   .home-name {
-    font-family: 'B612', sans-serif;
+    font-family: "B612", sans-serif;
     // font-family: 'Mulish', sans-serif;
     // font-family: 'Cairo', sans-serif;
     font-size: 90px;
     font-weight: 500;
-    margin: 15px;
     color: $primaryColor;
     // font-style: italic;
     // font: 700 4em/1 "Oswald", sans-serif;
     letter-spacing: 0;
-    padding: 0.25em 0 0.325em;
+    padding: 20px 0 0 0;
     display: block;
     margin: 0 auto;
     text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
@@ -81,11 +80,21 @@
     color: $primaryColor;
     font-family: "Lato", sans-serif;
   }
-  .icon-linkedin,
-  .icon-github,
-  .icon-at,
-  .icon-id-card {
-    margin-right: 16px;
-    color: $primaryColor;
+  .icons-wrapper {
+    margin-top: 30px;
+    .icon-linkedin,
+    .icon-github,
+    .icon-at,
+    .icon-id-card {
+      font-size: 28px;
+      margin: 10px 16px;
+      color: $primaryColor;
+      transition: 300ms;
+      &:hover {
+        color: $backgroundColor;
+        text-shadow: rgb(53, 53, 53) 5px 5px 10px;
+        cursor: pointer;
+      }
+    }
   }
 }
