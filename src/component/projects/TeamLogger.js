@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import TeamLoggerImg_1 from "../../images/team-logger.png";
 import TeamLoggerImg_2 from "../../images/logs.png";
 import TeamLoggerImg_3 from "../../images/members.png";
@@ -23,10 +23,14 @@ const TeamLogger = () => {
           </AwesomeSlider>
           <div className="row">
             <div className="col-lg-6">
-              <button className="btn-project">VIEW PROJECT</button>
+              <a href="https://team-logger-tool.netlify.app" target="_blank">
+                <button className="btn-project">VIEW PROJECT</button>
+              </a>
             </div>
             <div className="col-lg-6">
-              <button className="btn-project"> VIEW CODE</button>
+              <a href="https://github.com/n-yuan/team-logger" target="_blank">
+                <button className="btn-project"> VIEW CODE</button>
+              </a>
             </div>
           </div>
         </div>
@@ -36,8 +40,9 @@ const TeamLogger = () => {
             and boost productivity.
           </h2>
           <p className="single-project-description-content">
-            • Used CSS3, Sass, HTML5, JavaScript, React.js, React hooks,
-            Bootstrap, Responsive design for front-end development development.
+            • Used CSS3, Sass, HTML5, JavaScript, React.js, React hooks, Redux,
+            Redux-thunk, Bootstrap, Responsive design for front-end development
+            development.
           </p>
           <p className="single-project-description-content">
             •Used Node.js, MongoDB, Express, Mongoose, RESTful API for back-end

@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useRef } from "react";
-import TeamLoggerImg_1 from "../../images/team-logger.png";
-
+import React from "react";
+import GFinder_1 from "../../images/gfinder1.png";
+import GFinder_2 from "../../images/gfinder2.png";
+import GFinder_3 from "../../images/gfinder3.png";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import "react-awesome-slider/dist/custom-animations/fold-out-animation.css";
@@ -16,16 +17,20 @@ const TeamLogger = () => {
             className="awesome-slider-projects"
             bullets={false}
           >
-            <div data-src={TeamLoggerImg_1} />
-            <div data-src={TeamLoggerImg_1} />
-            <div data-src={TeamLoggerImg_1} />
+            <div data-src={GFinder_1} />
+            <div data-src={GFinder_2} />
+            <div data-src={GFinder_3} />
           </AwesomeSlider>
           <div className="row">
             <div className="col-lg-6">
-              <button className="btn-project">VIEW PROJECT</button>
+              <a href="https://g-finder-trending.netlify.app/" target="_blank">
+                <button className="btn-project">VIEW PROJECT</button>
+              </a>
             </div>
             <div className="col-lg-6">
-              <button className="btn-project"> VIEW CODE</button>
+              <a href="https://github.com/n-yuan/g-finder" target="_blank">
+                <button className="btn-project"> VIEW CODE</button>
+              </a>
             </div>
           </div>
         </div>
