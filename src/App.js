@@ -8,7 +8,6 @@ import "./styles/styles.css";
 function App() {
   return (
     <div>
-      {/* Test commit */}
       <Navbar />
       <Home />
       <div className="content-wrapper">
